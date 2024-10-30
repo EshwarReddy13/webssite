@@ -1,0 +1,50 @@
+.GreetingPage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+  ),
+  url('/bamboo.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: red;
+  font-size: 65px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center-box {
+  text-align: center;
+}
+
+.panda-logo img {
+  width: 400px; /* Adjust the logo size as needed */
+  margin-bottom: 2rem;
+}
+
+.left-box {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* Space between the buttons */
+}
+
+.right-box {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.small-button {
+  margin-bottom: 1rem; 
+}

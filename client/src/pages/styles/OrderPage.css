@@ -1,0 +1,162 @@
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .order-summary, .pickup-details {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-summary {
+    flex: 3;
+  }
+  
+  .pickup-details {
+    flex: 1;
+  }
+  
+  .add-more {
+    background-color: #e60000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .order-item {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .order-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    margin-right: 15px;
+  }
+  
+  .item-details {
+    flex: 1;
+  }
+  
+  .item-details h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .item-details p {
+    margin: 5px 0;
+  }
+  
+  .edit-remove button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .quantity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .quantity button {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+  }
+  
+  .item-price {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .recommended-items {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .recommendation {
+    text-align: center;
+    width: 100px;
+  }
+  
+  .recommendation img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .pickup-details h2, .pickup-details h3 {
+    margin-top: 0;
+  }
+  
+  .pickup-options {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .pickup-option {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .pickup-option.selected {
+    background-color: #e60000;
+    color: #fff;
+    border: none;
+  }
+  
+  .additional-requests label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .special-request-input, .coupon-code input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .coupon-code {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .coupon-code button {
+    padding: 10px;
+    background-color: #e60000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .page-title{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -5px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    text-shadow:  0 3px 3px black, 0 5px 5px black;
+  }
