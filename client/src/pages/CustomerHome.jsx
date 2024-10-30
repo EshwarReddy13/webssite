@@ -4,8 +4,8 @@ import AppetizerModal from '../Modals/AppetizerModal';
 import SideModal from '../Modals/SideModal';
 
 import logo from '../customerImages/logo.png';
-import Bowl from '../customerImages/Bowl.avif';
-import Plate from '../customerImages/Plate.avif';
+import Bowl from '../customerImages/bowl.avif';
+import Plate from '../customerImages/plate.avif';
 import Bigger_Plate from '../customerImages/Bigger_Plate.avif';
 import Appetizer from '../customerImages/Appetizer.avif';
 import Drink from '../customerImages/Drink.avif';
